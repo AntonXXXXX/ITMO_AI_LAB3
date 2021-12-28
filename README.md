@@ -117,7 +117,9 @@ plt.show()
 
 ### Moduled_model.py
 Затем был взят предобученный слой mobilenet_v2 feature_vector из tensorflow hub. К нему добавлен простейший слой Dense с функцией активации softmax. Он также обучался в течение 6 эпох:
+
 ![image](https://user-images.githubusercontent.com/43893312/146694389-bee5c952-9662-4625-830f-69104e04b873.png)
+
 ```python
 # https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub
 
